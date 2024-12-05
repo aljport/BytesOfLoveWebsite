@@ -13,7 +13,7 @@ const Navbar = () => {
             onClick={() => window.open("https://ufosc.org/", "_blank")}
             alt="UF OSC Logo"
         />
-        </div>
+      </div>
         
 
       <div class="flex flex-row justify-evenly items-center sm:gap-16 px-10 gap-6 ml-auto">

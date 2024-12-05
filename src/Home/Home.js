@@ -56,13 +56,11 @@ const Home = () => {
             </div>
 
             <div id="descriptionSection">
-                <hr id="descDivi"></hr>
                 <div id="aboutHeading">About Bytes of Love</div>
                 <div id="description-text">"Bytes of Love" is an engaging open-source dating simulator by the UF Open Source Club. Development began in Fall 2023 and continues actively. This visual novel offers immersive romantic storylines and character interactions, and it's compatible with Mac, Linux, and Windows. The game reflects the collaborative spirit and creativity of the club's contributors.</div>
             </div>
 
             <div id="download">
-                <hr id="descDivi"></hr>
                 <h2 id="aboutHeading" className="download-title">Download <span id="bytesName">Bytes of Love</span> Now!</h2>
                 <div id="downloadCol">
 
@@ -71,7 +69,7 @@ const Home = () => {
                         <h2 id="downloadLabel">Mac</h2>
                         <button id="downloadButton" onClick={ () => window.open('https://drive.google.com/uc?export=download&id=1lHRB4EOvokiN0LybZw75ij7rI1a_WWZ9', '_blank')}>
                             <svg class = "scaled-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="30" height="30">
-                                <path style={{ fill: '#232326', stroke: '#232326', strokeWidth: 2 }} d="m18.294 16.793-5.293 5.293V1h-1v21.086l-5.295-5.294-.707.707L12.501 24l6.5-6.5-.707-.707z"/>
+                                <path style={{ stroke: "white", strokeWidth: 2 }} d="m18.294 16.793-5.293 5.293V1h-1v21.086l-5.295-5.294-.707.707L12.501 24l6.5-6.5-.707-.707z"/>
                             </svg>                 
                         </button>
                     </div>
@@ -82,7 +80,7 @@ const Home = () => {
                         <button id="downloadButton" onClick={ () => window.open('https://drive.google.com/uc?export=download&id=1lHRB4EOvokiN0LybZw75ij7rI1a_WWZ9', '_blank')}>
                             
                             <svg class = "scaled-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="30" height="30">
-                                <path style={{ fill: '#232326', stroke: '#232326', strokeWidth: 2 }} d="m18.294 16.793-5.293 5.293V1h-1v21.086l-5.295-5.294-.707.707L12.501 24l6.5-6.5-.707-.707z"/>
+                                <path style={{ stroke: "white", strokeWidth: 2 }} d="m18.294 16.793-5.293 5.293V1h-1v21.086l-5.295-5.294-.707.707L12.501 24l6.5-6.5-.707-.707z"/>
                             </svg>
                             
                         </button>
@@ -93,7 +91,7 @@ const Home = () => {
                         <h2 id="downloadLabel">Windows</h2>
                         <button class = "" id="downloadButton" onClick={ () => window.open('https://drive.google.com/uc?export=download&id=1lHRB4EOvokiN0LybZw75ij7rI1a_WWZ9', '_blank')}>
                             <svg class = "scaled-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="30" height="30">
-                                <path style={{ fill: '#232326', stroke: '#232326', strokeWidth: 2,  }} d="m18.294 16.793-5.293 5.293V1h-1v21.086l-5.295-5.294-.707.707L12.501 24l6.5-6.5-.707-.707z"/>
+                                <path style={{ stroke: "white", strokeWidth: 2 }} d="m18.294 16.793-5.293 5.293V1h-1v21.086l-5.295-5.294-.707.707L12.501 24l6.5-6.5-.707-.707z"/>
                             </svg>
                         </button>
                     </div>
@@ -104,7 +102,7 @@ const Home = () => {
 
             <div id="meetChars">
                 <h2 id="meetHeading">Meet Our Characters!</h2>
-                <div className="Carousel-Wrapper border-4 border-custom-purple w-3/5 ">
+                <div className="Carousel-Wrapper">
                     <Carousel imageIndex={currentImageIndex} fade={fade}/>
                     <div className="button-container">
                         <Carousel_Rotate_Left fadeFunction={() => handleFadeArrows(handleRotateLeft)} />

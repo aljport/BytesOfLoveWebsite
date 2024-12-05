@@ -20,7 +20,9 @@ const Download = () => {
                         <img class="logo" src="images/apple-logo.svg"></img>
                         <h2 id="downloadLabel">Mac</h2>
                         <button id="downloadButton" onClick={ () => window.open('https://drive.google.com/uc?export=download&id=1lHRB4EOvokiN0LybZw75ij7rI1a_WWZ9', '_blank')}>
-                            <a>Download</a>
+                            <svg class = "scaled-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="30" height="30">
+                                <path style={{ stroke: "white", strokeWidth: 2 }} d="m18.294 16.793-5.293 5.293V1h-1v21.086l-5.295-5.294-.707.707L12.501 24l6.5-6.5-.707-.707z"/>
+                            </svg>  
                         </button>
                     </div>
 
@@ -28,7 +30,9 @@ const Download = () => {
                         <img class="logo" src="images/Linux_logo_PNG4.png"></img>
                         <h2 id="downloadLabel">Linux</h2>
                         <button id="downloadButton" onClick={ () => window.open('https://drive.google.com/uc?export=download&id=1lHRB4EOvokiN0LybZw75ij7rI1a_WWZ9', '_blank')}>
-                            <a>Download</a>
+                            <svg class = "scaled-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="30" height="30">
+                                <path style={{ stroke: "white", strokeWidth: 2 }} d="m18.294 16.793-5.293 5.293V1h-1v21.086l-5.295-5.294-.707.707L12.501 24l6.5-6.5-.707-.707z"/>
+                            </svg>  
                         </button>
                     </div>
 
@@ -36,7 +40,9 @@ const Download = () => {
                         <img class="logo" src="images/windows-logo.png"></img>
                         <h2 id="downloadLabel">Windows</h2>
                         <button id="downloadButton" onClick={ () => window.open('https://drive.google.com/uc?export=download&id=1lHRB4EOvokiN0LybZw75ij7rI1a_WWZ9', '_blank')}>
-                            <a>Download</a>
+                            <svg class = "scaled-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="30" height="30">
+                                <path style={{ stroke: "white", strokeWidth: 2 }} d="m18.294 16.793-5.293 5.293V1h-1v21.086l-5.295-5.294-.707.707L12.501 24l6.5-6.5-.707-.707z"/>
+                            </svg>  
                         </button>
                     </div>
 

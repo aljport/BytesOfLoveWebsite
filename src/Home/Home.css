@@ -149,8 +149,6 @@
     justify-content: center;
     margin: 3vh auto 10px auto;
     position: relative; /* Relative positioning for the button container */
-    
-    border-radius: 5%;
     background-size: cover;
     background-size: no-repeat;
 }
@@ -173,6 +171,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        gap: 3vh
     }
 
     .column{
